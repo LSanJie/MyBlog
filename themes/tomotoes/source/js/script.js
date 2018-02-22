@@ -621,7 +621,8 @@ function getHitokoto() {
                     id: "yiyanmotto",
                     duration: 100,
                     effact: "easeOut",
-                    content: data.hitokoto
+                    //content: data.hitokoto
+                    content: "生活不止眼前的苟且"
                 });
             }
         },

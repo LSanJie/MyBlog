@@ -55,7 +55,7 @@ mymotto: false
 startime: 2018/02/19
 
 # 首页副标题
-homesubtitle: 「朝闻道，夕死可矣」
+homesubtitle: 大道至简
 
 # 归档页标题
 archivestitle: 路漫漫其修远兮
@@ -67,7 +67,7 @@ tagstitle: 不积小流无以成江海
 categoriestitle: 不积跬步无以至千里
 
 # 关于页标题
-aboutitle: 平淡如水
+aboutitle: 业精于勤荒于嬉，行成于思毁于随
 
 # 设置 Android L Chrome 浏览器状态栏颜色
 color: '#77AAFF'
@@ -166,7 +166,7 @@ since_year: 2018
 site: www.s-captain.com
 
 # 用户页面中作者相关的描述性文字，如不需要设为 false
-about: 业精于勤荒于嬉，行成于思毁于随
+about: false #业精于勤荒于嬉，行成于思毁于随
 
 # “不蒜子”访问量统计，详见 http://ibruce.info/2015/04/04/busuanzi/
 visit_counter:
