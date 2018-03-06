@@ -146,8 +146,8 @@ valine:
   enable: true # 如果你想使用valine，请将值设置为 true
   appId: u2oQf3eeE9kwBjecitfP147W-gzGzoHsz # your leancloud appId
   appKey: 53oahj5QoQR5gpNUpIYxQwM8 # your leancloud appKey
-  notify: false # Mail notify
-  verify: false # Verify code
+  notify: true # Mail notify
+  verify: true # Verify code
   avatar: mm # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
   placeholder: 在此停留3秒，想必有什么话想说~ # Comment Box placeholder
   guest_info: nick,mail,link # Comment header info
