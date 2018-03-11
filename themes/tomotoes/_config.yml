@@ -7,20 +7,23 @@
 # 主菜单
 menu:
   home:
-    text: 主 页
+    text: 主  页
     url: /
-  archives:
-    text: 归 档
+  pagelines:
+    text: 时间轴
     url: /archives
   th-list:
-    text: 分 类
+    text: 分の类
     url: /categories
-  tags:
-    text: 标 签
-    url: /tags
+  edit:
+    text: 留言板
+    url: /MessageBoard
   smile-o:
-    text: 关 于
+    text: 关于我
     url: /about
+  camera:
+    text: 微记录
+    url: /talk
 
 # 图标菜单
 # 如果您没有微信公众号 您完全可以更改为 其他的链接 比如微博
@@ -55,7 +58,7 @@ mymotto: false
 startime: 2018/02/19
 
 # 首页副标题
-homesubtitle: 大道至简
+homesubtitle: Thank you!
 
 # 归档页标题
 archivestitle: 路漫漫其修远兮
@@ -69,12 +72,16 @@ categoriestitle: 不积跬步无以至千里
 # 关于页标题
 aboutitle: 业精于勤荒于嬉，行成于思毁于随
 
+messageboardtitle: 见贤思齐焉，见不贤而内自省也
+
+talktitle: 我挥一挥手，不带走一片云彩
+
 # 设置 Android L Chrome 浏览器状态栏颜色
 color: '#77AAFF'
 
 # 页面标题
 tags_title: 标签
-archives_title: 归档
+archives_title: 时间轴
 categories_title: 分类
 
 # 文章截断
@@ -146,10 +153,10 @@ valine:
   enable: true # 如果你想使用valine，请将值设置为 true
   appId: u2oQf3eeE9kwBjecitfP147W-gzGzoHsz # your leancloud appId
   appKey: 53oahj5QoQR5gpNUpIYxQwM8 # your leancloud appKey
-  notify: true # Mail notify
-  verify: true # Verify code
-  avatar: mm # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
-  placeholder: 在此停留3秒，想必有什么话想说~ # Comment Box placeholder
+  notify: false # Mail notify
+  verify: false # Verify code
+  avatar: identicon # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
+  placeholder: 在此停留3秒，想必是有什么话想说~ # Comment Box placeholder
   guest_info: nick,mail,link # Comment header info
   pageSize: 10 # comment list page size
 
@@ -187,3 +194,15 @@ githubEmojis:
   unicode: false
   styles:
   localEmojis:
+
+live2d:
+  enable: true
+  scriptFrom: local
+  model:
+    use: live2d-widget-model-z16
+  display:
+    position: right
+    width: 100
+    height: 200
+  mobile:
+    show: true

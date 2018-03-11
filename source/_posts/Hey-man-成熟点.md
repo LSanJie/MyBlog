@@ -1,5 +1,5 @@
 ---
-title: 'Hey, man, 成熟点!'
+title: 'hey, man, 成熟点!'
 tags: live
 categories: life
 abbrlink: 22531

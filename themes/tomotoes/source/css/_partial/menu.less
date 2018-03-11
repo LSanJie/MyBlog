@@ -82,11 +82,12 @@
         border-top: 1px solid #e0e0e0;
         margin: 0;
         padding: 0;
-        height: 300px;
+        /*height: 800px;*/
         min-height: ~"calc(100% - 115px)";
         list-style: none;
         line-height: @navH;
         overflow: hidden;
+        background-color:#f6f6f6;
         li {
             padding: 0 @menuPadding;
             .icon:not(.icon-caret-left) {
@@ -137,10 +138,23 @@
             text-decoration: none;
         }
     }
+    .sidebarimg {
+    width: 90%;
+    height: 120px;
+    min-height: 100px;
+    margin: 0 auto;
+    background: url(http://owi53l6xp.bkt.clouddn.com/sidebarimg.jpg) no-repeat top;
+    background-size: cover;
+    border-radius: 6px;
+    }
     .nav2 {
+        font-family: Comic Sans MS,OpenSans,sans-serif;
+        color: #8d77ff;
         border-top: 1px solid #e0e0e0;
         text-align: center;
         padding-top: 10px;
+        background-color: white;
+        border-radius: 1em;
         .nav2item {
             overflow: visible;
             .tip-top();

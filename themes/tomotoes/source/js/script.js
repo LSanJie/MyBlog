@@ -610,7 +610,7 @@ function getHitokoto() {
                         id: "yiyanmotto",
                         duration: 100,
                         effact: "easeOut",
-                        content: "能自己扛，就不要声张"
+                        content: "生活不止眼前的苟且"
                     });
                 } else {
                     getHitokoto();
